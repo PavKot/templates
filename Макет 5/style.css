@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 200px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+}
+header{
+    background: #373A3C;
+    border-bottom: 3px solid #777777;
+}
+.nav-links a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    margin-left: 25px;
+}
+.search{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    width: 200px;
+    height: 20px;
+    margin-left: 25px;
+    border-radius: 4px;
+}
+header i{
+    color: #8DD83D;
+}
+#menu{
+    display: none;
+}
+.header-slider button{
+    display: none !important;
+}
+.main_block_text{
+    text-align: center;
+    color: #FFFFFF;
+}
+.main_block{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+.main_block_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left: 50%;
+    display: inline-grid;
+    transform: translateX(-50%);
+    padding-top: 40px;
+}
+.card{
+    margin-left: 60px;
+    background-color: white;
+}
+.card_text{
+    padding: 20px;
+}
+.main_block_cards div:first-child{
+    margin-left: 0;
+}
+
+.card_header{
+    text-align: center;
+    height: 180px;
+    width: 318px;
+}
+.card_header img{
+    margin-top: 50px;
+}
+.card p{
+    margin-top: 20px;
+}
+.card h2{
+    margin-top: 15px;
+    padding-bottom: 40px;
+}
+.card a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.card_link{
+    text-align: center;
+    background: #8DD83D;
+    border-radius: 4px;
+    padding: 10px;
+}
+.exclusive_block{
+    background-image: url(img/ex-bg-op.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.exclusive_block_text{
+    text-align: center;
+    color: #FFFFFF;
+}
+.exclusive_block_cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    left: 50%;
+    display: inline-grid;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+.exclusive_block_cards .card{
+    margin-left: 20px !important;
+}
+.exclusive_block_cards .card h2{
+    visibility: hidden;
+}
+.exclusive_block_cards .card_header img{
+    margin-top: 0;
+    height: 180px;
+    width: 318px;
+}
+.exclusive_block_cards .card_header{
+    text-align: unset;
+}
+.exclusive_block_cards div:first-child{
+    margin-left: 0;
+
+}
+.store_button_block{
+    text-align: center;
+    margin-top: 60px;
+}
+.store_button_block a{
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.design_lab_block{
+    background-image: url(img/gamepads.png);
+    padding-top: 120px;
+    padding-left: 170px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-size: 100% auto
+}
+.design_lab_text{
+    color: white;
+    width: 50%;
+}
+.design_lab_text h2{
+    margin-top: 10px;
+}
+.design_lab_buttons{
+    margin-top: 40px;
+}
+#button_gray{
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#button_green{
+    text-align: center;
+    background: #8DD83D;
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+footer{
+    background: #373A3C;
+    border-radius: 4px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-content{
+    display: flex;
+}
+footer h3{
+    color: #7DD42F;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul li{
+    margin-top: 30px;
+}
+.footer-links{
+    margin-left: 300px;
+}
+.footer-content div:first-child{
+    margin-left: 160px;
+}
+footer i{
+    color: #7DD42F;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.footer-links i:first-child{
+    margin-left: 0;
+}
+.line{
+    opacity: 0.35;
+    border: 1px solid #FFFFFF;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.copyright a{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.game_header_block{
+    text-align: center;
+    margin-top: 100px;
+}
+.game_header_block h1{
+    color: #435766;
+}
+.game_preference_block{
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    margin-top: 300px;
+}
+.game_preference_block h1{
+    color: #435766;
+
+}
+.spec_block_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.spec_card h3{
+    margin-top: 44px;
+}
+.spec_block_header{
+    text-align: center;
+}
+.spec_card{
+    text-align: center;
+}
+.game_buttons{
+    text-align: center;
+    margin-top: 90px;
+    padding-bottom: 100px;
+}
+@media(max-width:1100px){
+    .nav-links a{
+        display: none;
+    }
+    .nav-links a.icon{
+        display: block !important;
+        font-size: 20px;
+    }
+    .nav-links.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    nav{
+        width: 100%;
+    }
+    header .nav-links.responsive{
+        height: 340px;
+        display: grid;
+    }
+    .nav-links.responsive a.icon{
+        position: absolute;
+        top: -50px;
+        right: -150px;
+    }
+    .nav-links a.icon{
+        position: absolute;
+        right: 50px;
+    }
+    .nav-links.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .search{
+        display: none;
+    }
+    .nav-wrapper{
+        padding: 0;
+    }
+    .nav-logo{
+        margin-left: 50px;
+    }
+    .main_block_cards{
+        grid-template-columns: none;
+    }
+    .card{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .exclusive_block_cards{
+        grid-template-columns: none;
+    }
+    .design_lab_block{
+        background-size: auto;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-content{
+        display: grid;
+    }
+    .footer-links{
+        margin-left: 160px;
+        margin-top: 20px;
+    }
+    .exclusive_block_cards .card{
+        margin-left: 0 !important;
+    }
+    .game_preference_block{
+        display: block;
+        text-align: center;
+        margin: 0;
+        margin-top: 50px;
+    }
+}
