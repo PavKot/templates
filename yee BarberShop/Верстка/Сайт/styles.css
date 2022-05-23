@@ -1,0 +1,172 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header-block{
+    background-image: url(img/main-bg.png);
+}
+
+.main-header-block h1{
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+.main-header-block a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.topnav{
+    margin-top: 15px;
+}
+
+.main-block-link{
+    text-align: center;
+    padding: 250px;
+}
+
+.main-block-link h1{
+    font-size: 48px;
+}
+
+.main-block-link a{
+    margin: 0;
+    background-color: #483A3A; 
+    border-radius: 29px; 
+    color: #fff; 
+    padding: 10px 50px;
+}
+
+.about-us-header{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.line{
+    width: 200px;
+    height: 7px;
+    background: #483A3A;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.about-us{
+    padding-bottom: 250px;
+}
+
+.about-us-firstblock{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-us-firstblock li{
+    margin-top: 20px;
+}
+
+.about-us-firstblock-text{
+    margin-top: 50px;
+}
+
+.about-us-secondblock{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.about-us-secondblock-text{
+    margin-top: 50px;
+}
+
+.about-us-secondblock li{
+    margin-top: 20px;
+}
+
+.start-now{
+    background-image: url(img/main-bg2.png);
+}
+
+.start-now-block-link{
+    text-align: center;
+    padding: 250px;
+}
+
+.start-now-block-link h1{
+    font-size: 48px;
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+.start-now-block-link a{
+    margin: 0;
+    background-color: #483A3A; 
+    border-radius: 29px; 
+    color: #fff; 
+    padding: 10px 50px;
+    text-decoration: none;
+}
+
+.order-block-link{
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+}
+
+.order-block-link h1{
+    font-size: 48px;
+    padding: 0;
+}
+
+.order-block-link a{
+    margin: 0;
+    background-color: #483A3A; 
+    border-radius: 29px; 
+    color: #fff; 
+    padding: 10px 50px;
+}
+
+.order_form{
+    display: grid;
+    width: 15%;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.prices-header-block{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.prices-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.pricescard{
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    margin: 0 auto;
+}
+
+.pricescard-text h2{
+    margin-top: 15px;
+}
+
+.pricescard-text h3{
+    margin-top: 15px;
+    padding-bottom: 25px;
+}
+
+.prices-block{
+    padding-bottom: 150px;
+}
